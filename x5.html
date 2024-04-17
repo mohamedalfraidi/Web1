@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>M to CM</title>
+<body style= background-color:yellow>
+<body>
+
+
+<p>please enter a number on M to convent to CM</p>
+
+<p>
+  <label>M</label>
+  <input id="inputM" type="number" placeholder="M" oninput="Conventing(this.value)" onchange="Conventing(this.value)">
+</p>
+<p>CM: <span id="output"></span></p>
+
+<script>
+function Conventing(valNum) {
+  document.getElementById("output").innerHTML=valNum*1000;
+}
+</script>
+</body>
+</html>

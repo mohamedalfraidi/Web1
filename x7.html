@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>CM to KM</title>
+<body style= background-color:yellow>
+<body>
+
+
+<p>please enter a number on CM to convent to KM</p>
+
+<p>
+  <label>CM</label>
+  <input id="inputCM" type="number" placeholder="CM" oninput="Conventing(this.value)" onchange="Conventing(this.value)">
+</p>
+<p>KM: <span id="output"></span></p>
+
+<script>
+function Conventing(valNum) {
+  document.getElementById("output").innerHTML=valNum/100000;
+}
+</script>
+</body>
+</html>

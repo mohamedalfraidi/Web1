@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<title>Feet to M</title>
+<body style= background-color:yellow>
+<body>
+
+
+<p>please enter a number on feet to convent to M</p>
+
+<p>
+  <label>Feet</label>
+  <input id="inputFeet" type="number" placeholder="Feet" oninput="Conventing(this.value)" onchange="Conventing(this.value)">
+</p>
+<p>M: <span id="output"></span></p>
+
+<script>
+function Conventing(valNum) {
+  document.getElementById("output").innerHTML=valNum/3.2808;
+}
+</script>
+</body>
+</html>
